@@ -1,0 +1,20 @@
+{
+  "name": "gemini-desktop",
+  "version": "1.0.0",
+  "description": "Opensource Gemini Desktop distribution.",
+  "author": "Alex Škop",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "package": "electron-forge package",
+    "make": "electron-forge make"
+  },
+  "dependencies": {
+    "electron-squirrel-startup": "^1.0.0"
+  },
+  "devDependencies": {
+    "@electron-forge/cli": "^7.3.0",
+    "@electron-forge/maker-squirrel": "^7.3.0",
+    "electron": "^30.0.0"
+  }
+}
